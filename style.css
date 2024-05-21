@@ -1,0 +1,65 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.container {
+    width: 80%;
+    margin: 0 auto;
+    padding: 20px;
+}
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 0;
+    border-bottom: 1px solid #ccc;
+}
+.navigation-bar {
+    display: flex;
+    gap: 20px;
+}
+.hero {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 50px 0;
+}
+.hero-text {
+    max-width: 50%;
+}
+.hero img {
+    width: 40%;
+}
+.stats {
+    display: flex;
+    gap: 30px;
+    justify-content: center;
+    margin: 30px 0;
+}
+.featured-courses, .top-picks {
+    margin: 50px 0;
+}
+.courses-grid {
+    display: flex;
+    gap: 20px;
+    justify-content: space-around;
+}
+.course-card {
+    width: 22%;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    text-align: center;
+}
+.course-card img {
+    width: 100%;
+    height: auto;
+}
+.footer {
+    text-align: center;
+    padding: 20px;
+    background-color: #f1f1f1;
+    margin-top: 50px;
+}
